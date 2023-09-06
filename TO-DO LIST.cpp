@@ -1,5 +1,3 @@
-// To-Do List
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -18,12 +16,8 @@ int main() {
     if (task == "q") {
       break;
     }
-
-    // Add the task to the list.
     tasks.push_back(task);
   }
-
-  // Print the list of tasks.
   cout << "Your tasks are:" << endl;
   for (int i = 0; i < tasks.size(); i++) {
     cout << tasks[i] << endl;
