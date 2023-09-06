@@ -1,5 +1,3 @@
-// Simple Calculator
-
 #include <iostream>
 
 using namespace std;
@@ -10,15 +8,12 @@ int main() {
   char opt;
   int result;
  
-  // Allow the user to enter two numbers and the operator.
   cout << "Enter the first number: ";
   cin >> num1;
   cout << "Enter the second number: ";
   cin >> num2;
   cout << "Enter the operator (+, -, *, /): ";
   cin >> opt;
-
-  // Performing calculation based on operator.
 
   switch (opt) {
     case '+':
