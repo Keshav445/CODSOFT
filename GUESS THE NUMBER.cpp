@@ -1,5 +1,3 @@
-// create a code of gussing random number
-
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
